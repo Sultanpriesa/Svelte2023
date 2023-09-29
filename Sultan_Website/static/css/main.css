@@ -17,7 +17,17 @@ footer .footerText a {
     text-indent: 100px;
 }
 
-footer .navText a {
-    
+nav{
+    display: flex;
 }
+ul{
+    display: flex;
+    margin: 0;
+    margin-left: auto;
+    list-style: none;
+}
+li{
+    margin-right: 20px;
+}
+
 
