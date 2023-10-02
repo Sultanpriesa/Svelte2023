@@ -1,6 +1,6 @@
-<div>
+<!-- <div>
     This is a header
-</div>
+</div> -->
 <nav>
     <ul> 
         <li>
