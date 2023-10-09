@@ -18,6 +18,13 @@
             <a href="about" class="scroll"><i class='bx bxs-down-arrow'></i></a>
         </div>
     </header>
+
+    <section id="about">
+        <div class="header">
+            <h1>About Me</h1>
+            <a href="about">More</a>
+        </div>
+    </section>    
 </body>
 
 </html>
