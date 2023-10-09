@@ -24,6 +24,17 @@
             <h1>About Me</h1>
             <a href="about">More</a>
         </div>
+
+        <div class="card">
+            <img src="assets/logo.png">
+            <div class="info">
+                <h1>Hi, I'm Sultan Priesa</h1>
+                <p>
+                    
+                </p>
+            </div>
+        </div>
+
     </section>    
 </body>
 
