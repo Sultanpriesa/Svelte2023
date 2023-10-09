@@ -25,12 +25,14 @@
             <a href="about">More</a>
         </div>
 
-        <div class="card">
-            <img src="assets/logo.png">
+        <div class="mini about">
+            <img src="Image/logo.png">
             <div class="info">
-                <h1>Hi, I'm Sultan Priesa</h1>
+                <h1>Hi👋, I'm Sultan Priesa</h1>
                 <p>
-                    
+                I'm an Indonesian currently studying Information Technology at Otago 
+                Polytechnic, New Zealand. Despite finding it challenging, I've been 
+                working hard on various projects recently, which you can explore on this website.
                 </p>
             </div>
         </div>
