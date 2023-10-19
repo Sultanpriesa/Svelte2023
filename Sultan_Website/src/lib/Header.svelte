@@ -12,13 +12,13 @@
                     <a href="/">Home</a>
                 </li>
                 <li>
-                    <a href="/About">About</a>
+                    <a href="/about">About</a>
                 </li>
                 <li>
                     <a href="/features">Features</a>
                 </li>
                 <li>
-                    <a href="/Contact">Conact</a>
+                    <a href="/Contact">Contact</a>
                 </li>
             </ul>
         </nav>
@@ -26,11 +26,11 @@
 </header>
 
 <style>
-.header-wrapper {
+.header-wrap{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #333;
+    background-color: lightgray;
     padding: 10px;
 }
 .container{
@@ -42,32 +42,32 @@
     padding:10px;
 }
 .menu{
-    max-width: 1200px;
+    max-width: 2000px;
     justify-content: flex-end;
 }
 .menu-contents{
     display: inline-flex;
     text-align: right;
 }
-Nav ul li {
-    margin: 5px; 
+.menu-contents li {
+    margin: 15px; 
 }
-Nav ul li a{
+.menu-contents a{
     color: red;
     font-size: 35px;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 5px 10px;
-    margin: 0px 10 px;
+    padding: 10px;
+    margin: 10px;
     position: relative;
     transition: all .5s;
 }
-Nav a:hover{
+.menu-contents a:hover{
     background-color: rgb(231, 19, 19);
     color: rgb(17, 16, 16);
 }
 
-Nav a::before{
+.menu-contents a::before{
     content: "";
     position: absolute;
     bottom: 12px;
@@ -79,7 +79,7 @@ Nav a::before{
     opacity: 0;
     transition: all .3s;
 }
-Nav a::after{
+.menu-contents a::after{
     content: "";
     position: absolute;
     bottom: 12px;
@@ -91,12 +91,12 @@ Nav a::after{
     opacity: 0;
     transition: all .3s;
 } 
-Nav a:hover::before{
+.menu-contents a:hover::before{
     opacity: 1;
     bottom: -8px;
     left: -8px;
 }
-Nav a:hover::after
+.menu-contents a:hover::after
     {
     opacity: 1;
     bottom: -8px;
