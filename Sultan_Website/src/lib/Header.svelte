@@ -1,23 +1,33 @@
-<nav>
-    <ul> 
-        <li>
-            <a href="/">Home</a>
-        </li>
-        <li>
-            <a href="/About">About</a>
-        </li>
-        <li>
-            <a href="/Contact">Conact</a>
-        </li>
-        <li>
-            <a href="/features">Features</a>
-        </li>
-    </ul>
-</nav>
+<header class="header-wrap">
+    <div class="logo">
+        <!-- svelte-ignore a11y-img-redundant-alt -->
+        <img class="header-image" 
+        src="https://seeklogo.com/images/F/fia-formula-one-world-championship-logo-315707FDD7-seeklogo.com.png"
+        alt="Formula 1 image">
+    </div>
+    <nav>
+        <ul class="menu"> 
+            <li>
+                <a href="/">Home</a>
+            </li>
+            <li>
+                <a href="/About">About</a>
+            </li>
+            <li>
+                <a href="/features">Features</a>
+            </li>
+            <li>
+                <a href="/Contact">Conact</a>
+            </li>
+        </ul>
+    </nav>
+</header>
 
 <style>
-    Nav body
-    {
+    .logo{
+        size: 20px;
+    }
+    Nav body{
         margin: 0;
         height: 100vh;
         display: flex;
