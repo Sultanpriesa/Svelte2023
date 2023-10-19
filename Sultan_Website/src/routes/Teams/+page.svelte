@@ -2,6 +2,14 @@
     <div class="title-teams">
         <h1 class="f1-black">F1 Teams 2023</h1>
     </div>
+    <div class="mini-about-teams-container">
+        <div class="mini-about-teams">
+            <p>Uncover all the essential information regarding this season's Formula 1 teams, 
+                including details about the drivers, their achievements on the podium, the points 
+                they have accumulated, and any championship titles they may have secured.
+            </p>
+        </div>
+    </div>
 
 </body>
 
