@@ -12,7 +12,7 @@
             © 2023 Sultan Priesa, All Rights reserved.
         </span>
     </div>
-    <div class="footer-Button">
+    <div class="footer-button">
         <div class="button-to-top">
             <span>▲</span>
         </div>
@@ -51,18 +51,47 @@ footer{
     width: 100%;
     padding: 2px;
 }
+.footer-button{
+    float: right;
+    width: auto;
+    display: -webkit-flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
 
 .button-to-top{
     min-width: 30px;
     height: 30px;
     margin-left: 10px;
     padding: 7px;
-    
+    border-radius: 7px;
+    line-height: 20px;
+    float: left;
+    box-sizing: border-box;
+    user-select: none;
+    transition: all 0.3 linear;
+    background-color: gray;
+    overflow: hidden;
+    cursor: pointer;
+    display: -webkit-flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
     color: white;
-    
+}
 
+.button-to-top span{
+    font-size: 20px;
+    width: auto;
+    float: left;
 }
 
 
-
 </style>
+
