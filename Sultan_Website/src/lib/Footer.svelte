@@ -1,15 +1,10 @@
-<script>
-    import Nav from "./Nav.svelte"
-</script>
-<!-- <Nav /> -->
-
 <footer>
     <div class="copyright"> 
         <span>
             This page is written by Sultan  Priesa
         </span>
         <span>
-            © 2023 Sultan Priesa, All Rights reserved.
+            © 2023 Sultan Priesa, All Rights Reserved.
         </span>
     </div>
     <div class="footer-button">
@@ -38,13 +33,12 @@ footer{
     float: left;
     width: auto;
     text-align: left;
-    /* display: -webkit-flex; */
     flex-wrap: nowrap;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-
-    color: rgb(218, 21, 21);
+    margin: 10px;
+    color: white;
 }
 .copyright span{
     float: left;
@@ -54,21 +48,19 @@ footer{
 .footer-button{
     float: right;
     width: auto;
-    display: -webkit-flex;
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: center;
     align-items: flex-end;
 }
 
-
 .button-to-top{
     min-width: 30px;
     height: 30px;
-    margin-left: 10px;
+    margin: 10px;
     padding: 7px;
     border-radius: 7px;
-    line-height: 20px;
+    line-height: 15px;
     float: left;
     box-sizing: border-box;
     user-select: none;
@@ -76,7 +68,6 @@ footer{
     background-color: gray;
     overflow: hidden;
     cursor: pointer;
-    display: -webkit-flex;
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: center;
