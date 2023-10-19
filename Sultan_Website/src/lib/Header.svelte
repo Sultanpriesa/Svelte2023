@@ -12,13 +12,13 @@
                     <a href="/">Home</a>
                 </li>
                 <li>
+                    <a href="/Teams">Teams</a>
+                </li>
+                <li>
+                    <a href="/Track">Track</a>
+                </li>
+                <li>
                     <a href="/about">About</a>
-                </li>
-                <li>
-                    <a href="/features">Features</a>
-                </li>
-                <li>
-                    <a href="/Contact">Contact</a>
                 </li>
             </ul>
         </nav>
@@ -49,12 +49,9 @@
     display: inline-flex;
     text-align: right;
 }
-.menu-contents li {
-    margin: 15px; 
-}
 .menu-contents a{
     color: red;
-    font-size: 35px;
+    font-size: 45px;
     text-decoration: none;
     text-transform: uppercase;
     padding: 10px;
