@@ -27,6 +27,7 @@ footer{
     width: 100%;
     box-sizing: border-box;
     justify-content: space-between;
+    box-shadow: darkgray;
 }
 .copyright{    
     font-size: 13px;

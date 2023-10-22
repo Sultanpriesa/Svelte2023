@@ -32,6 +32,7 @@
     align-items: center;
     background-color: lightgray;
     padding: 10px;
+    box-shadow:darkgray ;
 }
 .container{
     max-width: 320px;
