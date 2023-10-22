@@ -5,7 +5,7 @@
          Clean and Minimalistic Design: The website has a clean, minimalistic design that follows a common principle of modern web design. It helps in reducing clutter 
                                         and ensuring that the content is easy to read and navigate. Furthermore, I like how when you scroll down a car appears towards the 
                                         screen and once it passes the page actually scrolls.
-     2. https://affectsound.com/
+     2. https://ethos-fitness-sport-template.webflow.io/
          Call-to-Action (CTA) Button: The prominent CTA button is strategically placed in this website appealed to me, this encourages users to take action. The use of a 
                                       contrasting color for the CTA button makes it stand out and attracts the user's attention.
      2. https://affectsound.com/
