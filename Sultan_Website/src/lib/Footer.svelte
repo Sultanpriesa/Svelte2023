@@ -1,3 +1,4 @@
+<!-- footer that will display on page -->
 <footer>
     <div class="copyright"> 
         <span>
@@ -7,6 +8,7 @@
             © 2023 Sultan Priesa, All Rights Reserved.
         </span>
     </div>
+    <!-- button to automatically go up to the top of the page -->
     <div class="footer-button">
         <div class="button-to-top">
             <span>▲</span>

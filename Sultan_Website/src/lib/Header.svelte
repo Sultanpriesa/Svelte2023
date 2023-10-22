@@ -1,10 +1,13 @@
+<!-- header that will display on all page -->
 <header class="header-wrap">
     <div class="container">
+        <!-- F1 logo -->
         <!-- svelte-ignore a11y-img-redundant-alt -->
         <img class="header-image" 
         src="https://seeklogo.com/images/F/fia-formula-one-world-championship-logo-315707FDD7-seeklogo.com.png"
         alt="Formula 1 image">
     </div>
+    <!-- Navigation part of the header sitting on the right side -->
     <div class="menu">
         <nav>
             <ul class="menu-contents"> 
@@ -13,9 +16,6 @@
                 </li>
                 <li>
                     <a href="/Teams">Teams</a>
-                </li>
-                <li>
-                    <a href="/Track">Track</a>
                 </li>
                 <li>
                     <a href="/about">About</a>
