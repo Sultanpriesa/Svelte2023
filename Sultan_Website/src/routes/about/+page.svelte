@@ -62,6 +62,15 @@
 	<p>FIA Formula One World Championship is the pinnacle of motorsport. Here is a brief history of this exciting sport:</p>
 
 	<div class="event-container">
-		
+		<!-- for each loop to display the f1History array -->
+		{#each f1Histories as f1History }
+		<div class="event">
+			<img src={f1History.imageUrl} alt="F1 Event">
+			<div class="event-details">
+				<h3>{f1History.year}: {f1History.event}</h3>
+				<p>{f1History.description}</p>
+			</div>
+		</div>
+		{/each}
 	</div>
 </section>
