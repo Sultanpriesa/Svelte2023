@@ -1,4 +1,5 @@
 <script>
+	// created an array for the history information 
 	let f1History = [ 
 	{
 		year: 1950,
@@ -59,7 +60,7 @@
 
 <section class="about-section">
 	<h2>About Formula 1 Racing</h2>
-	<p>FIA Formula One World Championship is the pinnacle of motorsport. Here is a brief history of this exciting sport:</p>
+	<p>FIA Formula One World Championship is the pinnacle of motorsport. Here are some brief history of this exciting sport:</p>
 
 	<div class="event-container">
 		<!-- for each loop to display the f1History array -->
@@ -74,3 +75,7 @@
 		{/each}
 	</div>
 </section>
+
+<style>
+	
+</style>
