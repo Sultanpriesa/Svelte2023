@@ -56,3 +56,12 @@
     },
 ];
 </script>
+
+<section class="about-section">
+	<h2>About Formula 1 Racing</h2>
+	<p>FIA Formula One World Championship is the pinnacle of motorsport. Here is a brief history of this exciting sport:</p>
+
+	<div class="event-container">
+		
+	</div>
+</section>
