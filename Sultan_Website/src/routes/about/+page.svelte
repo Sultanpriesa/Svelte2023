@@ -25,15 +25,48 @@
 		padding: 20px;
 		text-align: center;
 		font-size: 27px;
-		background-color: lightgray;
+		background-color: rgb(187, 185, 185);
 	}
-	.event-container > div {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
+	.event-container {
+		display: flex;
+		flex-direction: column;
 		align-items: center;
-		gap: 30px;
+		gap: 40px;
 		margin: 30px 0 100px 0;
 	}
+	.event{
+		text-align: center;
+		max-width: 1400px;
+		width: 90%;
+		box-shadow: 10PX;
+		background-color: lightgray;
+		border-radius: 35px;
 
+	}
+	img{
+		width: 100%;
+		height: auto;
+		border-top-left-radius: 35px;
+		border-top-right-radius: 35px;
+	}
+	.event-details{
+		padding: 25px;
+	}
+	h3 {
+		margin: 0 0 10px;
+		color: black;
+		font-size: 35px;
+	}
+	p {
+		font-size: 20px;
+		color: black;
+	}
+	.event:hover{
+		transition-duration: 1s;
+		transform: scale(1.05);
+	}
+	.event:hover::after{
+		transition: all .1s ease-out;
+	}
 
 </style>
