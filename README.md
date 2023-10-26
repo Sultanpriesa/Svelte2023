@@ -1,5 +1,5 @@
 ## Choose a topic and three example sites from which you want to incorporate elements
-   Topic: The site will revolve around formula 1 racing witch includes the about, teams and general information about the topic.
+# Topic: The site will revolve around formula 1 racing witch includes the about, teams and general information about the topic.
    Example Sites:
      1. https://www.tuqr.nl/
          Clean and Minimalistic Design: The website has a clean, minimalistic design that follows a common principle of modern web design. It helps in reducing clutter 
