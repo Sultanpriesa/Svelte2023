@@ -22,7 +22,7 @@
     </section>
 
     <section class="ranking-section">
-        <h2 class="ranking-heading">Top 5 Drivers of the season</h2>
+        <h2 class="ranking-heading">Top 5 Drivers of 2023</h2>
         <table class="ranking-table">
             <thead>
                 <tr>
@@ -67,9 +67,11 @@
         padding: 20px;
     }
     .description h1{
-        font-size: 55px;
+        font-size: 53px;
         margin-bottom: 30px;
         text-align: center;
+        background-color: lightgray;
+        border-radius: 11px;
     }
     .description p{
         font-size: 24px;
@@ -89,14 +91,29 @@
         font-size: 53px;
         margin-bottom: 20px;
         background-color: lightgray;
+        border-radius: 11px;
     }
     .ranking-table{
         margin:auto;
-        
+        width: 70%;
+        border-collapse: collapse;
+        table-layout: fixed;
     }
-
-
-
+    th, td{
+        padding: 15px;
+        text-align: center;
+        font-size: 21px;
+        white-space: nowrap;
+    }
+    th {
+        background-color: whitesmoke;
+    }
+    tr:nth-child(even){
+        background-color: whitesmoke;
+    }
+    tr:hover{
+        background-color: rgba(228, 228, 228, 0.459);    
+    }
 
 
 
