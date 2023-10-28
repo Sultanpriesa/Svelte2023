@@ -3,7 +3,7 @@
 </script>
 
 <main>
-    <section>
+    <section class="top-section-title-teams">
         <div class="image-container ">
             <!-- svelte-ignore a11y-img-redundant-alt -->
             <img src="https://images2.minutemediacdn.com/image/fetch/https%3A%2F%2Fbeyondtheflag.com%2Fwp-content%2Fuploads%2Fgetty-images%2F2022%2F06%2F1240978865.jpeg" 
@@ -23,8 +23,15 @@
 </main>
 
 <style>
+    .top-section-title-teams{
+        display: flex;
+        align-items: center;
+        background-color: white;
+        color: black;
+        padding: 20px;
+    }
     .image-container{
-        width: 50%;
+        width: 52%;
     }
     .image-container img{
         width: 90%;
@@ -36,10 +43,20 @@
         padding: 20px;
     }
     .description h1{
-        font-size: 52px;
-        margin-bottom: 20px;
+        font-size: 55px;
+        margin-bottom: 30px;
         text-align: center;
     }
-    
-    
+    .description p{
+        font-size: 24px;
+        line-height: 2.1;
+        color: black;
+        font-style: italic;
+        padding-left: 20px;
+        font: bold;
+        text-shadow: 1px 1px 1px black;
+        border-left: 10px double red;
+
+    }
+
 </style>
