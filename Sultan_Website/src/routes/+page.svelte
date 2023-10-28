@@ -6,7 +6,7 @@
     <section>
         <div class="image-container ">
             <!-- svelte-ignore a11y-img-redundant-alt -->
-            <img src="https://images.pexels.com/photos/17809274/pexels-photo-17809274/free-photo-of-leclerc-side-view.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+            <img src="https://images2.minutemediacdn.com/image/fetch/https%3A%2F%2Fbeyondtheflag.com%2Fwp-content%2Fuploads%2Fgetty-images%2F2022%2F06%2F1240978865.jpeg" 
             alt="F1 Image/Video">
           </div>
           <div class="description ">
@@ -21,3 +21,16 @@
           </div>
     </section>
 </main>
+
+<style>
+    .image-container{
+        width: 50%;
+    }
+    .image-container img{
+        width: 90%;
+        height: auto;
+        border-radius: 12px;
+
+    }
+    
+</style>
