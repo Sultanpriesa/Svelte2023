@@ -1,0 +1,29 @@
+{
+    "drivers" : [
+     { 
+       "id": 1, 
+       "name": "Max Verstappen", 
+       "car": "RED BULL RACING HONDA RBPT"
+     },
+     {  
+       "id": 2, 
+       "name": "Sergio Perez",  
+       "car": "RED BULL RACING HONDA RBPT"
+     },
+     { 
+       "id": 3, 
+       "name": "Lewis Hamilton",  
+       "car": "MERCEDES" 
+     },
+     { 
+       "id": 4, 
+       "name": "Fernando Alonso",  
+       "car": "ASTON MARTIN ARAMCO MERCEDES" 
+     },
+     { 
+       "id": 5, 
+       "name": "Carlos Sainz",  
+       "car": "FERRARI" 
+     }
+   ]
+}

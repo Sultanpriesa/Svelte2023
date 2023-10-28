@@ -1,5 +1,5 @@
 <script>
-	import f1Histories from "../lib/fetching/f1History.json"
+	import drivers from "../lib/fetching/ranks.json"
 </script>
 
 <main>
@@ -20,10 +20,30 @@
             </p>
           </div>
     </section>
+
     <section class="ranking-section">
         <h2>Top 5 Drivers of the season</h2>
-
+        <table class="ranking-table">
+            <thead>
+                <tr>
+                    <th>Position</th>
+                    <th>Name</th>
+                    <th>Car</th>
+                </tr>
+            </thead>
+            <tbody>
+                {#each drivers as driver}
+                <tr>
+                    <td>{driver.id}</td>
+                    <td>{driver.name}</td>
+                    <td>{driver.car}</td>
+                </tr>
+                {/each}
+            </tbody>
+        </table>
     </section>
+
+
 </main>
 
 <style>
