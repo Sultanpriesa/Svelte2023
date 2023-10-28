@@ -30,7 +30,16 @@
         width: 90%;
         height: auto;
         border-radius: 12px;
-
     }
+    .description{
+        flex: 1;
+        padding: 20px;
+    }
+    .description h1{
+        font-size: 52px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
     
 </style>
