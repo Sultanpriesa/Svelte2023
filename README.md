@@ -17,9 +17,9 @@
 
 ## What specific elements will you incorporate into your own design? How? Where can they be seen in your assignment?
       1. Clean Design: In my design, I will focus on maintaining a clean and clutter-free layout. Use ample white space, clear typography, and minimalistic elements 
-                     to guide users' attention to the most critical content.
+                     to guide users' attention to the most critical content. You will see the same color palette and design throughout all the pages and section on my website.
                      
-      2. Background Effects: Utilize background effects like gradients, videos, or parallax scrolling to make your website more visually engaging.
+      2. Background Effects: Utilize background effects like gradients, videos and pictures, or parallax scrolling to make your website more visually engaging.
       
       3. Parallax Scrolling: Where the background moves at a different speed than the foreground. This creates a visually engaging experience, and because parallax 
                             scrolling is a popular technique in modern web  design for adding depth and interactivity.
