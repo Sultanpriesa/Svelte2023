@@ -28,6 +28,7 @@
 		background-color: rgb(187, 185, 185);
 	}
 	.event-container {
+		size: 400px;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -36,8 +37,7 @@
 	}
 	.event{
 		text-align: center;
-		max-width: 1400px;
-		width: 90%;
+		max-width: 1100px;
 		box-shadow: 10PX;
 		background-color: lightgray;
 		border-radius: 35px;
