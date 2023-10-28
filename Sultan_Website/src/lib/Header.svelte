@@ -61,8 +61,8 @@
     transition: all .5s;
 }
 .menu-contents a:hover{
-    background-color: rgb(231, 19, 19);
-    color: rgb(17, 16, 16);
+    background-color: red;
+    color: black;
 }
 
 .menu-contents a::before{
@@ -72,7 +72,7 @@
     left: 12px;
     height: 12px;
     width: 12px;
-    border: 3px solid rgb(20, 19, 19);
+    border: 3px solid black;
     border-width: 0 0 3px 3px;
     opacity: 0;
     transition: all .3s;
