@@ -32,7 +32,7 @@
                 </tr>
             </thead>
             <tbody>
-                {#each drivers as driver}
+                {#each drivers.drivers as driver (driver.id)}
                 <tr>
                     <td>{driver.id}</td>
                     <td>{driver.name}</td>
