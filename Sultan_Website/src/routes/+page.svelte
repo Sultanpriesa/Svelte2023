@@ -22,7 +22,7 @@
     </section>
 
     <section class="ranking-section">
-        <h2>Top 5 Drivers of the season</h2>
+        <h2 class="ranking-heading">Top 5 Drivers of the season</h2>
         <table class="ranking-table">
             <thead>
                 <tr>
@@ -80,7 +80,24 @@
         font: bold;
         text-shadow: 1px 1px 1px black;
         border-left: 10px double red;
-
     }
+    .ranking-section{
+        text-align: center;
+        margin: 30px;
+    }
+    .ranking-heading{
+        font-size: 53px;
+        margin-bottom: 20px;
+        background-color: lightgray;
+    }
+    .ranking-table{
+        margin:auto;
+        
+    }
+
+
+
+
+
 
 </style>
