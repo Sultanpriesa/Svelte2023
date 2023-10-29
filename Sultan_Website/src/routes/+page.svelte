@@ -98,6 +98,7 @@
         width: 70%;
         border-collapse: collapse;
         table-layout: fixed;
+        border: 10px double red;
     }
     th, td{
         padding: 15px;
