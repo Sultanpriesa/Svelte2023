@@ -41,7 +41,7 @@
 		box-shadow: 10PX;
 		background-color: lightgray;
 		border-radius: 35px;
-
+		transition: all 0.3s ease-in-out;
 	}
 	img{
 		width: 100%;
@@ -62,11 +62,7 @@
 		color: black;
 	}
 	.event:hover{
-		transition-duration: 1s;
 		transform: scale(1.05);
-	}
-	.event:hover::after{
-		transition: all .1s ease-out;
 	}
 
 </style>

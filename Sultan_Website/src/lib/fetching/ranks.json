@@ -3,22 +3,22 @@
      { 
        "id": 1, 
        "name": "Max Verstappen", 
-       "car": "RED BULL RACING HONDA RBPT"
+       "car": "RED BULL RACING HONDA"
      },
      {  
        "id": 2, 
        "name": "Sergio Perez",  
-       "car": "RED BULL RACING HONDA RBPT"
+       "car": "RED BULL RACING HONDA"
      },
      { 
        "id": 3, 
        "name": "Lewis Hamilton",  
-       "car": "MERCEDES" 
+       "car": "MERCEDES-AMG" 
      },
      { 
        "id": 4, 
        "name": "Fernando Alonso",  
-       "car": "ASTON MARTIN ARAMCO MERCEDES" 
+       "car": "ASTON MARTIN" 
      },
      { 
        "id": 5, 

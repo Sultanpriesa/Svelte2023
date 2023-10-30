@@ -85,10 +85,11 @@
     }
     .ranking-section{
         text-align: center;
-        margin: 30px;
+        margin: 30px 0 100px 0;
     }
     .ranking-heading{
         font-size: 53px;
+        margin-top: 10px;
         margin-bottom: 20px;
         background-color: lightgray;
         border-radius: 11px;
