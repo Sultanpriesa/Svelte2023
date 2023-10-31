@@ -41,7 +41,7 @@
             </thead>
             <tbody>
                 {#each drivers as driver}
-                {#if {id} > 6}
+                {#if driver.id < 6}
                 <tr>
                     <td>{driver.id}</td>
                     <td>{driver.name}</td>
@@ -52,6 +52,7 @@
             </tbody>
         </table>
     </section>
+    
 
 
 </main>
