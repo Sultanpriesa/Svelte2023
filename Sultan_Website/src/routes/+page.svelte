@@ -52,9 +52,16 @@
             </tbody>
         </table>
     </section>
-    
-
-
+    <!-- List of F1 Drivers with View More Button -->
+    <section>
+        <h2 class="Drivers-heading">2023 F1 Drivers List </h2>
+        <ul class="drivers-list">
+          {#each drivers as driver }
+            <li>{driver.name}</li>
+          {/each}
+        </ul>
+        <a href="/Teams"> <button class="view-more-button"> Teams</button></a>
+      </section>
 </main>
 
 <style>
