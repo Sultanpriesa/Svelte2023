@@ -41,11 +41,13 @@
             </thead>
             <tbody>
                 {#each drivers as driver}
+                {#if {id} > 6}
                 <tr>
                     <td>{driver.id}</td>
                     <td>{driver.name}</td>
                     <td>{driver.car}</td>
                 </tr>
+                {/if}
                 {/each}
             </tbody>
         </table>

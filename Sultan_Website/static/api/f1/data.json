@@ -25,6 +25,81 @@
       "name": "Carlos Sainz",
       "car": "FERRARI"
     }
+    {
+      "id": 6,
+      "name": "Lando Norris",
+      "car": "MCLAREN"
+    },
+    {
+      "id": 7,
+      "name": "Charles Leclerc",
+      "car": "FERRARI"
+    },
+    {
+      "id": 8,
+      "name": "George Russell",
+      "car": "MERCEDES-AMG"
+    },
+    {
+      "id": 9,
+      "name": "Oscar Piastri",
+      "car": "MCLAREN"
+    },
+    {
+      "id": 10,
+      "name": "Pierre Gasly",
+      "car": "ALPINE"
+    }
+    {
+      "id": 11,
+      "name": "Lance Stroll",
+      "car": "ASTON MARTIN"
+    },
+    {
+      "id": 12,
+      "name": "Esteban Ocon",
+      "car": "ALPINE"
+    },
+    {
+      "id": 13,
+      "name": "Alex Albon",
+      "car": "WILLIAMS"
+    },
+    {
+      "id": 14,
+      "name": "Valteri Bottas",
+      "car": "ALFA ROMEO"
+    },
+    {
+      "id": 15,
+      "name": "Nico Hulkenberg",
+      "car": "ALFA ROMEO"
+    },
+    {
+     "id": 16,
+      "name": "Yuki Tsunoda",
+      "car": "ALPHA TAURI"
+    },
+    {
+      "id": 17,
+      "name": "Daniel Ricciardo",
+      "car": "ALPHA TAURI"
+    },
+    {
+      "id": 18,
+      "name": "Zhou Guanyu",
+      "car": "ALFA ROMEO"
+    },
+    {
+      "id": 19,
+      "name": "Kevin Magussen",
+      "car": "HAAS"
+    },
+    {
+      "id": 20,
+      "name": "Liam LAwson",
+      "car": "ALPHA TAURI"
+    }
   ],
 
   "f1Histories": [
