@@ -1,5 +1,13 @@
 <script>
-	import f1Histories from "../../lib/fetching/f1History.json"
+	import { onMount } from "svelte";
+    let f1Histories = [];
+    onMount(async() => {
+        const res = await fetch("/api/f1/data.json");
+		// parsing the json file
+        const data = await res.json();
+        f1Histories = data.f1Histories;
+    });
+
 </script>
 
 <section class="about-section">
@@ -8,7 +16,7 @@
 
 	<div class="event-container">
 		<!-- for each loop to display the f1History array -->
-		{#each f1Histories.f1Histories as f1History }
+		{#each f1Histories as f1History }
 		<div class="event">
 			<img src={f1History.imageURL} alt="F1 Event">
 			<div class="event-details">

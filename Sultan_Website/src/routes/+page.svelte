@@ -1,5 +1,13 @@
 <script>
-	import drivers from "../lib/fetching/ranks.json"
+	import { onMount } from "svelte";
+    let drivers = [];
+    onMount(async() => {
+        const res = await fetch("/api/f1/data.json");
+        // parsing the json file
+        const data = await res.json();
+        drivers = data.drivers;
+    });
+
 </script>
 
 <main>
@@ -32,7 +40,7 @@
                 </tr>
             </thead>
             <tbody>
-                {#each drivers.drivers as driver (driver.id)}
+                {#each drivers as driver}
                 <tr>
                     <td>{driver.id}</td>
                     <td>{driver.name}</td>
