@@ -60,7 +60,7 @@
             <li>{driver.name}</li>
           {/each}
         </ul>
-        <a href="/Teams"> <button class="view-more-button"> Teams</button></a>
+        <a href="/Teams"> <button class="view-more-button"> View In Detail</button></a>
       </section>
 </main>
 
@@ -103,7 +103,7 @@
     }
     .ranking-section{
         text-align: center;
-        margin: 40px 0 100px 0;
+        margin: 40px 0 40px 0;
     }
     .ranking-heading{
         font-size: 53px;
@@ -136,20 +136,38 @@
     }
     .drivers-heading{
         font-size: 53px;
-        margin-top: 55px;
+        margin-top: 40px;
         margin-bottom: 10px;
         text-align: center;
+        background-color: lightgray;
+        border-radius: 11px;
     }
     .drivers-list{
         list-style: none;
-        padding: 0;
+        padding: 10px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        /* animation */
     }
     .drivers-list li{
         margin-bottom: 10px;
+        font-size: 18px;
+        position: relative;
+        padding: 10px;
     }
+    .view-more-button{
+        background-color: red;
+        color: whitesmoke;
+        padding: 10px 20px;
+        border: 1.3px solid gray;
+        border-radius: 7px;
+        cursor: pointer;
+        margin: 10px auto 20px;
+        display: flex;
+        margin-bottom: 100px;
+    }
+    
 
 
 </style>
