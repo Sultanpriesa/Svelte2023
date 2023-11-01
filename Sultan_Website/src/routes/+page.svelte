@@ -54,7 +54,7 @@
     </section>
     <!-- List of F1 Drivers with View More Button -->
     <section>
-        <h2 class="Drivers-heading">2023 F1 Drivers List </h2>
+        <h2 class="drivers-heading">2023 F1 Drivers List </h2>
         <ul class="drivers-list">
           {#each drivers as driver }
             <li>{driver.name}</li>
@@ -103,7 +103,7 @@
     }
     .ranking-section{
         text-align: center;
-        margin: 30px 0 100px 0;
+        margin: 40px 0 100px 0;
     }
     .ranking-heading{
         font-size: 53px;
@@ -134,7 +134,22 @@
     tr:hover{
         background-color: rgba(228, 228, 228, 0.459);    
     }
-
+    .drivers-heading{
+        font-size: 53px;
+        margin-top: 55px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .drivers-list{
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .drivers-list li{
+        margin-bottom: 10px;
+    }
 
 
 </style>
