@@ -1,13 +1,32 @@
 <script>
-	import { onMount } from "svelte";
+    const baseUrl = `https://api.unsplash.com`;
+    const id = `8zE9isClm9xnb0ledrsaXnzAQzJDep52RIsLsE44pxI`;
+    let array = [];
+    import { onMount } from "svelte";
     let drivers = [];
+    // fetching data when the component is mounted
     onMount(async() => {
         const res = await fetch("/api/f1/data.json");
         // parsing the json file
         const data = await res.json();
         drivers = data.drivers;
-        console.log(drivers)
+        
+        //fetching photos related to F1 from unsplash API
     });
+
+    const test = async () => {
+        const response = await fetch(`${baseUrl}/search/photos?query=formula 1&per_page=4&client_id=${id}`);
+        const data2 = await response.json();
+        for(let i = 0; i < data2.results.length; i++){
+            array.push(data2.results[i].urls.regular);
+            console.log(array)
+        }
+        // array = test;
+        return array;
+    };
+    
+
+test();
 
 </script>
 
@@ -53,6 +72,10 @@
             </tbody>
         </table>
     </section>
+    {#each array as ary} 
+<img src={ary}/>
+    {/each}
+    
     <!-- List of F1 Drivers with View More Button -->
     <section>
         <h2 class="drivers-heading">2023 F1 Drivers List </h2>

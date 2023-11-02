@@ -2,6 +2,13 @@ body{
   min-width: 900px;
 }
 
+ul {
+  display: flex;
+  margin: 0;
+  margin-left: auto;
+  list-style: none;
+}
+
 
 /* Scroll bar CSS */
 /* width */
