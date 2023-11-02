@@ -1,3 +1,16 @@
+<script>
+	import { onMount } from "svelte";
+    let teams = [];
+    onMount(async() => {
+        const res = await fetch("/api/f1/data.json");
+        // parsing the json file
+        const data = await res.json();
+        teams = data.teams;
+    });
+
+</script>
+
+
 <body>
     <div class="title-teams">
         <h1 class="f1-black">F1 Teams 2023</h1>
