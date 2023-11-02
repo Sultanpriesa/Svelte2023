@@ -86,5 +86,5 @@
     padding-right: 20px;
     border-top: solid 2px black;
     border-right: solid 2px black;
-  }
+}
 </style>
