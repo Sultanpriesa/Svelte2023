@@ -27,7 +27,7 @@
     <!-- for each itteration, it assigns the current team object to the variable 
         'team' and index of the current iteration to 'i' -->
     {#each teams as team, i (team.name)}
-      <div class="team-detail title-teamss">
+      <div class="team-detail-title-teams">
         <div class="team-header">
           <span class="team-rank">{i + 1}</span>
           <span class="team-points">{team.points}</span>
@@ -56,6 +56,12 @@
 </body>
 
 <style>
+  .horizontal-line {
+    content: "";
+    display: block;
+    border-bottom: 1px solid #ccc;
+    margin: 10px 0;
+}
   .title-teams {
     margin-top: 20px;
     margin-right: 25px;
@@ -65,11 +71,20 @@
     padding-right: 20px;
     border-top: solid 10px black;
     border-right: solid 10px black;
-  }
-
+}
   .f1-black {
     font-size: 75px;
     padding-left: 25px;
     margin: 5px;
-  }
+}
+.team-detail-title-teams{
+    margin-top: 20px;
+    margin-right: 25px;
+    margin-left: 25px;
+    border-top-right-radius: 35px;
+    padding-top: 20px;
+    padding-right: 20px;
+    border-top: solid 2px black;
+    border-right: solid 2px black;
+}
 </style>
