@@ -61,7 +61,7 @@
     display: block;
     border-bottom: 1px solid #ccc;
     margin: 10px 0;
-  }
+}
   .title-teams {
     margin-top: 20px;
     margin-right: 25px;
@@ -71,13 +71,13 @@
     padding-right: 20px;
     border-top: solid 10px black;
     border-right: solid 10px black;
-  }
+}
   .f1-black {
     font-size: 75px;
     padding-left: 25px;
     margin: 5px;
-  }
-  .team-detail-title-teams {
+}
+.team-detail-title-teams{
     margin-top: 20px;
     margin-right: 25px;
     margin-left: 25px;
@@ -87,4 +87,62 @@
     border-top: solid 2px black;
     border-right: solid 2px black;
 }
+.mini-about-teams {
+  text-align: left;
+  background-color: rgba(239, 236, 236, 0.351);
+  font-size: 24px;
+  margin-left: 20px;
+  margin-right: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+}
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.team-detail {
+  padding: 10px;
+  margin: 20px;
+  display: inline-block;
+  width: 48%;
+  box-sizing: border-box;
+}
+.team-detail:nth-child(2n) {
+  margin-right: 0;
+}
+.team-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.team-points {
+  font-size: 40px;
+  font-weight: 900; 
+  margin-bottom: 10px;
+  font-style: italic; 
+  
+}
+.team-points::after {
+  content: " PTS";
+  font-weight: 900; 
+}
+.team-rank {
+  font-size: 40px;
+  font-weight: bold; 
+}
+.team-name {
+  display: flex;
+  align-items: center;
+  font-weight: 900;
+  font-size: 32px;
+  color: black; 
+}
+.last-team-image {
+  max-width: 100%;
+  display: block;
+  margin-top: 10px;
+  margin: auto;
+}
+
 </style>
