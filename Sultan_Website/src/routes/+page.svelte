@@ -167,7 +167,8 @@
         display: flex;
         margin-bottom: 100px;
     }
-    
+    /* width */
+
 
 
 </style>
