@@ -56,13 +56,13 @@
 </body>
 
 <style>
-  .horizontal-line {
+.horizontal-line {
     content: "";
     display: block;
     border-bottom: 1px solid #ccc;
     margin: 10px 0;
 }
-  .title-teams {
+.title-teams {
     margin-top: 20px;
     margin-right: 25px;
     margin-left: 25px;
@@ -72,20 +72,10 @@
     border-top: solid 10px black;
     border-right: solid 10px black;
 }
-  .f1-black {
+.f1-black {
     font-size: 75px;
     padding-left: 25px;
     margin: 5px;
-}
-.team-detail-title-teams{
-    margin-top: 20px;
-    margin-right: 25px;
-    margin-left: 25px;
-    border-top-right-radius: 35px;
-    padding-top: 20px;
-    padding-right: 20px;
-    border-top: solid 2px black;
-    border-right: solid 2px black;
 }
 .mini-about-teams {
   text-align: left;
@@ -96,6 +86,16 @@
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 50px;
+}
+.team-detail-title-teams{
+    margin-top: 20px;
+    margin-right: 25px;
+    margin-left: 25px;
+    border-top-right-radius: 35px;
+    padding-top: 20px;
+    padding-right: 20px;
+    border-top: solid 2px black;
+    border-right: solid 2px black;
 }
 .team-container {
   display: flex;
@@ -158,10 +158,10 @@
 .team-drivers li {
   font-weight: bold; 
   font-size: 1.2em; 
-  color: rgb(240, 81, 46); 
+  color: rgb(255, 0, 0); 
   text-transform: uppercase; 
   letter-spacing: 2px; 
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5); 
 }
 .clearfix {
   clear: both;
