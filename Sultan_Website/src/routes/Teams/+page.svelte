@@ -61,7 +61,7 @@
     display: block;
     border-bottom: 1px solid #ccc;
     margin: 10px 0;
-}
+  }
   .title-teams {
     margin-top: 20px;
     margin-right: 25px;
@@ -71,13 +71,13 @@
     padding-right: 20px;
     border-top: solid 10px black;
     border-right: solid 10px black;
-}
+  }
   .f1-black {
     font-size: 75px;
     padding-left: 25px;
     margin: 5px;
-}
-.team-detail-title-teams{
+  }
+  .team-detail-title-teams {
     margin-top: 20px;
     margin-right: 25px;
     margin-left: 25px;
@@ -86,5 +86,5 @@
     padding-right: 20px;
     border-top: solid 2px black;
     border-right: solid 2px black;
-}
+  }
 </style>
