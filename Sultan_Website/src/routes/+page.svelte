@@ -6,6 +6,7 @@
         // parsing the json file
         const data = await res.json();
         drivers = data.drivers;
+        console.log(drivers)
     });
 
 </script>
@@ -57,7 +58,16 @@
         <h2 class="drivers-heading">2023 F1 Drivers List </h2>
         <ul class="drivers-list">
           {#each drivers as driver }
+          {#if driver.id < 10}
             <li>{driver.name}</li>
+            {/if}
+          {/each}
+        </ul>
+        <ul class="drivers-list">
+          {#each drivers as driver }
+          {#if driver.id > 10}
+            <li>{driver.name}</li>
+            {/if}
           {/each}
         </ul>
         <a href="/Teams"> <button class="view-more-button"> View In Detail</button></a>

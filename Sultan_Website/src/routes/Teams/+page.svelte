@@ -46,11 +46,6 @@
         </div>
         <img src={`${team.image}`} alt={team.name} class="last-team-image" />
       </div>
-      <!-- conditional statement check if the current team's rank is even. If it 
-        is it adds a clearfix div, to ensure it is displayed in rows of 2 -->
-      {#if (i + 1) % 2 === 0}
-        <div class="clearfix" />
-      {/if}
     {/each}
   </div>
 </body>
@@ -98,8 +93,10 @@
     border-right: solid 2px black;
 }
 .team-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
   flex-wrap: wrap;
+  padding-bottom: 100px;
 }
 .team-detail {
   padding: 10px;
@@ -139,15 +136,16 @@
   color: black; 
 }
 .last-team-image {
-  max-width: 100%;
-  display: block;
+  max-width: 50%;
+  display: grid;
   margin-top: 10px;
   margin: auto;
 }
 .team-logo {
   max-width: 50px;
   margin-left: auto; 
-  margin-right: 10px; 
+  margin-right: 10px;
+  object-fit: cover; 
 }
 .team-drivers ul {
   list-style: none;
