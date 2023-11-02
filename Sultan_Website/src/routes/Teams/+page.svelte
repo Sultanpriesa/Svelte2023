@@ -97,4 +97,52 @@
   padding-bottom: 20px;
   padding-left: 50px;
 }
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.team-detail {
+  padding: 10px;
+  margin: 20px;
+  display: inline-block;
+  width: 48%;
+  box-sizing: border-box;
+}
+.team-detail:nth-child(2n) {
+  margin-right: 0;
+}
+.team-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.team-points {
+  font-size: 40px;
+  font-weight: 900; 
+  margin-bottom: 10px;
+  font-style: italic; 
+  
+}
+.team-points::after {
+  content: " PTS";
+  font-weight: 900; 
+}
+.team-rank {
+  font-size: 40px;
+  font-weight: bold; 
+}
+.team-name {
+  display: flex;
+  align-items: center;
+  font-weight: 900;
+  font-size: 32px;
+  color: black; 
+}
+.last-team-image {
+  max-width: 100%;
+  display: block;
+  margin-top: 10px;
+  margin: auto;
+}
+
 </style>
