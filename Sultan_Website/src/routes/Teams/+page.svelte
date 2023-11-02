@@ -23,7 +23,33 @@
             </p>
         </div>
     </div>
-
+    <div class="team-container">
+        {#each teams as team}
+          <div class="team-detail title-teamss">
+            <div class="team-header">
+              <span class="team-rank">{i + 1}</span>
+              <span class="team-points">{team.points}</span>
+             
+            </div>
+            <div class="horizontal-line"></div>
+            <div class="team-name">
+              <span class="team-bold">{team.name}</span>
+              <img src={`${team.logo}`} alt={team.name} class="team-logo" />
+            </div>
+            <div class="horizontal-line"></div>
+            <div class="team-drivers">
+              <ul>
+                <li>{team.driver1} </li>
+                <li> {team.driver2}</li>
+              </ul>
+            </div>
+            <img src={`${team.image}`} alt={team.name} class="last-team-image"  />
+          </div>
+          {#if (i + 1) % 2 === 0}
+            <div class="clearfix"></div>
+          {/if}
+        {/each}
+      </div>
 </body>
 
 
