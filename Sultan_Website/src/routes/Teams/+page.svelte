@@ -144,5 +144,26 @@
   margin-top: 10px;
   margin: auto;
 }
-
+.team-logo {
+  max-width: 50px;
+  margin-left: auto; 
+  margin-right: 10px; 
+}
+.team-drivers ul {
+  list-style: none;
+  padding: 0;
+  font-size: 20px;
+  font-weight: 700; 
+}
+.team-drivers li {
+  font-weight: bold; 
+  font-size: 1.2em; 
+  color: rgb(240, 81, 46); 
+  text-transform: uppercase; 
+  letter-spacing: 2px; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+.clearfix {
+  clear: both;
+}
 </style>
