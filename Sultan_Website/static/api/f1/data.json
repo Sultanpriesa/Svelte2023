@@ -158,4 +158,85 @@
       "imageURL": "https://i.eurosport.com/2020/11/15/2937217-60300308-2560-1440.jpg"
     }
   ]
+  "teams": [
+    {
+      "name": "Red Bull Racing",
+      "points": 706,
+      "driver1": "Max VERSTAPPEN",
+      "driver2": "Sergio PEREZ",
+      "image": "red-bull-racing-rb16-1-removebg-preview.png",
+      "logo": "images-removebg-preview.png"
+    },
+    {
+      "name": "Mercedes",
+      "points": 344,
+      "driver1": "Lewis HAMILTON",
+      "driver2": "George RUSSELL",
+      "image": "mercedes-w14-1-removebg-preview.png",
+      "logo": "mercedes-benz-logo-0-removebg-preview.png"
+    },
+    {
+      "name": "Ferrari",
+      "points": 322,
+      "driver1": "Charles LECLERC",
+      "driver2": "Carlos SAINZ",
+      "image": "1163192-removebg-preview.png",
+      "logo": "png-clipart-scuderia-ferrari-laferrari-car-formula-1-ferrari-logo-signage-removebg-preview.png"
+    },
+    {
+      "name": "McLaren",
+      "points": 242,
+      "driver1": "Oscar PIASTRI",
+      "driver2": "Lando NORRIS",
+      "image": "42141-removebg-preview.png",
+      "logo": "McLaren-logo-removebg-preview.png"
+    },
+    {
+      name: "Aston Martin",
+      "points": 236,
+      "driver1": "Lance STROLL",
+      "driver2": "Fernando ALONSO",
+      "image": "skysports-aston-martin-f1-car_6056332-removebg-preview.png",
+      "logo": "aston.jpg"
+    },
+    {
+      "name": "Alpine",
+      "points": 100,
+      "driver1": "Pierre GASLY",
+      "driver2": "Esteban OCON",
+      "image": "A523_White_Studio_Blue_01-removebg-preview.png",
+      "logo": "alpine-logo-a-removebg-preview.png"
+    },
+    {
+      "name": "Williams",
+      "points": 26,
+      "driver1": "Alexander ALBON",
+      "driver2": "Logan SARGEANT",
+      "image": "3-quarters-zoom-removebg-preview.png",
+      "logo": "williams-racing-logo-0-removebg-preview.png"
+    },
+    {
+      "name": "Alpa Romeo",
+      "points": 16,
+      "driver1": "ZHOU Guanyu",
+      "driver2": "Valtteri BOTTAS",
+      "image": "mobile-removebg-preview.png",
+      "logo": "Alfa_Romeo_logo-removebg-preview.png"
+    },
+    {
+      "name": "Haas F1 Team",
+      "points": 12,
+      "driver1": "Nico HULKENBERG",
+      "driver2": "Kevin MAGNUSSEN",
+      "image": "Haas1a-removebg-preview.png",
+      "logo": "menu_5_544_2_kisspng-haas-f1-team-mercedes-amg-petronas-f1-team-formula-5beaf977ee3449-3077393515421259439757-removebg-preview.png"
+    },
+    {
+      "name": "AlphaTauri",
+      "points": 10,
+      "driver1": "Yuki TSUNODA",
+      "driver2": "Daniel RICCIARDO",
+      "image": "0006-removebg-preview.png",
+      "logo": "02_logo-poster-00001-removebg-preview.png" 
+    }
 }
