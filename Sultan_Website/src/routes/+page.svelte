@@ -72,9 +72,11 @@ test();
             </tbody>
         </table>
     </section>
-    {#each array as ary} 
-<img src={ary}/>
-    {/each}
+    <section>
+        {#each array as ary} 
+            <img src={ary}/>
+        {/each}
+    </section>
     
     <!-- List of F1 Drivers with View More Button -->
     <section>
