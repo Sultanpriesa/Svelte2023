@@ -87,4 +87,14 @@
     border-top: solid 2px black;
     border-right: solid 2px black;
 }
+.mini-about-teams {
+  text-align: left;
+  background-color: rgba(239, 236, 236, 0.351);
+  font-size: 24px;
+  margin-left: 20px;
+  margin-right: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+}
 </style>
