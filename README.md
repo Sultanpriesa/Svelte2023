@@ -1,5 +1,41 @@
-## Choose a topic and three example sites from which you want to incorporate elements
-# Topic: The site will revolve around formula 1 racing witch includes the about, teams and general information about the topic.
+# Purpose
+
+# Technology used
+
+# Known Bugs
+
+# Future Roadmap
+
+# Screenshots
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Choose a topic and three example sites from which you want to incorporate elements
+ Topic: The site will revolve around formula 1 racing witch includes the about, teams and general information about the topic.
    
     Example Sites:
      1. https://www.tuqr.nl/
@@ -15,7 +51,7 @@
          Scroll-Activated Animations: As you scroll down the site, I noticed the animations that are triggered, providing an interactive and engaging experience. This 
                                       approach aligns with the principles of user engagement and interactivity in modern web design.
 
-## What specific elements will you incorporate into your own design? How? Where can they be seen in your assignment?
+# What specific elements will you incorporate into your own design? How? Where can they be seen in your assignment?
       1. Clean Design: In my design, I will focus on maintaining a clean and clutter-free layout. Use ample white space, clear typography, and minimalistic elements 
                      to guide users' attention to the most critical content. You will see the same color palette and design throughout all the pages and section on my website.
                      
