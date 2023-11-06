@@ -9,7 +9,7 @@
       alt="Formula 1 image"
     />
   </div>
-  <div>
+  <div class="car-container">
     <i class="fa-solid fa-car-side fa-bounce bouncing-car" />
   </div>
   <!-- Navigation part of the header sitting on the right side -->

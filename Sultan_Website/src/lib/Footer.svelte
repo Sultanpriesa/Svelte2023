@@ -1,3 +1,9 @@
+<script>
+  function topFunction() {
+    scroll(0,0)
+  }
+</script>
+
 <!-- footer that will display on page -->
 <footer>
   <div class="copyright">
@@ -6,9 +12,9 @@
   </div>
   <!-- button to automatically go up to the top of the page -->
   <div class="footer-button">
-    <div class="button-to-top">
+    <button on:click={topFunction} class="button-to-top">
       <span>▲</span>
-    </div>
+    </button>
   </div>
 </footer>
 

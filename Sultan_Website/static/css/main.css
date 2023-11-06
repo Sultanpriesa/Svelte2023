@@ -1,7 +1,7 @@
+
 body {
   min-width: 900px;
 }
-
 ul {
   display: flex;
   margin: 0;
@@ -10,6 +10,9 @@ ul {
 }
 
 /* Scroll bar CSS */
+html{
+  scroll-behavior: smooth;
+}
 /* width */
 ::-webkit-scrollbar {
   width: 12px;
@@ -28,3 +31,18 @@ ul {
 ::-webkit-scrollbar-thumb:hover {
   background: darkred;
 }
+
+/* conditional styling */
+@media screen and (max-width: 1200px ) {
+  .top-section-title-teams {
+    display: flex;
+    flex-direction: column;
+  }
+  .car-container {
+    display: none;
+  }
+  .ranking-table {
+    min-width: 870px;
+  }
+}
+

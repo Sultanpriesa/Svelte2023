@@ -151,9 +151,10 @@
   list-style: none;
   padding: 0;
   font-size: 20px;
-  font-weight: 700; 
+  font-weight: 700;
 }
 .team-drivers li {
+  margin: 0 10px 0 10px; 
   font-weight: bold; 
   font-size: 1.2em; 
   color: rgb(255, 0, 0); 
@@ -164,4 +165,5 @@
 .clearfix {
   clear: both;
 }
+
 </style>

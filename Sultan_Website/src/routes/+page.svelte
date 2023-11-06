@@ -85,7 +85,7 @@
   </section>
   <!-- section on list of F1 Drivers with View More Button -->
   <section>
-    <h2 class="drivers-heading">2023 F1 Drivers List</h2>
+    <h2 class="drivers-heading">2023 F1 Driver Line Up</h2>
     <ul class="drivers-list">
       {#each drivers as driver}
         <li>{driver.name}</li>
@@ -152,12 +152,12 @@
     border-collapse: collapse;
     table-layout: fixed;
     border: 10px double red;
+    
   }
-  th,
-  td {
+  th, td {
     padding: 15px;
     text-align: center;
-    font-size: 21px;
+    font-size: 20px;
     white-space: nowrap;
   }
   th {
@@ -237,10 +237,12 @@
     width: 99%;
     border: 2px solid black;
     border-radius: 15px;
+    transition: all 0.25s ease-in-out;
 }
 img:hover{
     border: 3px solid red; 
     transition: all scale(0.2);
     transform: scale(1.01);
+    box-shadow: 0 0 12px black
 }
 </style>
