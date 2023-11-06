@@ -23,6 +23,8 @@ npm run dev -- --open
 ```
 
 # Technology used
+- Svelte: the website was built using sveltekit framework using CSS, HTML and JavaScript.
+- Others: Unsplash API, Node.js 
 
 # Known Bugs
 
