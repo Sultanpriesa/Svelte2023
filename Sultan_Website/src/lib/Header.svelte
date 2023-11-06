@@ -7,6 +7,9 @@
         src="https://seeklogo.com/images/F/fia-formula-one-world-championship-logo-315707FDD7-seeklogo.com.png"
         alt="Formula 1 image">
     </div>
+    <div>
+        <i class="fa-solid fa-car-side fa-bounce bouncing-car"></i>
+    </div>
     <!-- Navigation part of the header sitting on the right side -->
     <div class="menu">
         <nav>
@@ -100,4 +103,8 @@
     bottom: -8px;
     left: -8px;
 }
-    </style>
+.bouncing-car{
+    font-size: 3em;
+}
+
+</style>
