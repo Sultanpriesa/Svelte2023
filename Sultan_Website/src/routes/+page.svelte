@@ -1,8 +1,8 @@
 <script>
   const baseUrl = `https://api.unsplash.com`;
   const id = `8zE9isClm9xnb0ledrsaXnzAQzJDep52RIsLsE44pxI`;
-  let array = [];
   import { onMount } from "svelte";
+  let array = [];
   let drivers = [];
   // fetching data when the component is mounted
   onMount(async () => {
@@ -12,22 +12,15 @@
     drivers = data.drivers;
 
     //fetching photos related to F1 from unsplash API
-  });
-
-  const test = async () => {
+    let image = []
     const response = await fetch(
-      `${baseUrl}/search/photos?query=formula 1&per_page=4&client_id=${id}`
+      `${baseUrl}/search/photos?query=f1&per_page=4&client_id=${id}`
     );
     const data2 = await response.json();
     for (let i = 0; i < data2.results.length; i++) {
-      array.push(data2.results[i].urls.regular);
-      console.log(array);
-    }
-    // array = test;
-    return array;
-  };
-
-  test();
+      image.push(data2.results[i].urls.regular);}
+    array = image
+  });
 </script>
 
 <main>
@@ -80,10 +73,15 @@
       </tbody>
     </table>
   </section>
+  <!-- section for fetching photos from unsplash api -->
   <section>
-    {#each array as ary}
-      <img src={ary} />
-    {/each}
+    <h2 class="drivers-heading">Images</h2>
+    <div id="images-car">
+        {#each array as ary}
+            <img src={ary} />
+        {/each}
+    </div>
+
   </section>
   <!-- section on list of F1 Drivers with View More Button -->
   <section>
@@ -99,6 +97,7 @@
 </main>
 
 <style>
+/* css section on formula one racing  */
   .top-section-title-teams {
     display: flex;
     align-items: center;
@@ -135,6 +134,7 @@
     text-shadow: 1px 1px 1px black;
     border-left: 10px double red;
   }
+  /* css section on top 5 drivers */
   .ranking-section {
     text-align: center;
     margin: 40px 0 40px 0;
@@ -169,6 +169,7 @@
   tr:hover {
     background-color: rgba(228, 228, 228, 0.459);
   }
+  /* section on list of F1 Drivers with View More Button */
   .drivers-heading {
     font-size: 53px;
     margin-top: 40px;
@@ -222,4 +223,24 @@
   a {
     text-decoration: none;
   }
+/* css section for fetching photos from unsplash api */
+  #images-car{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+ img{
+    height: 500px;
+    width: 99%;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+img:hover{
+    border: 3px solid red; 
+    transition: all scale(0.2);
+    transform: scale(1.01);
+}
 </style>

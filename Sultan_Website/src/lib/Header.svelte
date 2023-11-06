@@ -1,59 +1,61 @@
 <!-- header that will display on all page -->
 <header class="header-wrap">
-    <div class="container">
-        <!-- F1 logo -->
-        <!-- svelte-ignore a11y-img-redundant-alt -->
-        <img class="header-image" 
-        src="https://seeklogo.com/images/F/fia-formula-one-world-championship-logo-315707FDD7-seeklogo.com.png"
-        alt="Formula 1 image">
-    </div>
-    <div>
-        <i class="fa-solid fa-car-side fa-bounce bouncing-car"></i>
-    </div>
-    <!-- Navigation part of the header sitting on the right side -->
-    <div class="menu">
-        <nav>
-            <ul class="menu-contents"> 
-                <li>
-                    <a href="/">Home</a>
-                </li>
-                <li>
-                    <a href="/Teams">Teams</a>
-                </li>
-                <li>
-                    <a href="/about">About</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
+  <div class="container">
+    <!-- F1 logo -->
+    <!-- svelte-ignore a11y-img-redundant-alt -->
+    <img
+      class="header-image"
+      src="https://seeklogo.com/images/F/fia-formula-one-world-championship-logo-315707FDD7-seeklogo.com.png"
+      alt="Formula 1 image"
+    />
+  </div>
+  <div>
+    <i class="fa-solid fa-car-side fa-bounce bouncing-car" />
+  </div>
+  <!-- Navigation part of the header sitting on the right side -->
+  <div class="menu">
+    <nav>
+      <ul class="menu-contents">
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="/Teams">Teams</a>
+        </li>
+        <li>
+          <a href="/about">About</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
 </header>
 
 <style>
-.header-wrap{
+  .header-wrap {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     background-color: lightgray;
     padding: 10px;
-    box-shadow:darkgray ;
-}
-.container{
+    box-shadow: darkgray;
+  }
+  .container {
     max-width: 320px;
     height: auto;
     display: block;
-}
-.header-image{
-    padding:10px;
-}
-.menu{
+  }
+  .header-image {
+    padding: 10px;
+  }
+  .menu {
     max-width: 2000px;
     justify-content: flex-end;
-}
-.menu-contents{
+  }
+  .menu-contents {
     display: inline-flex;
     text-align: right;
-}
-.menu-contents a{
+  }
+  .menu-contents a {
     color: red;
     font-size: 45px;
     text-decoration: none;
@@ -61,14 +63,14 @@
     padding: 10px;
     margin: 10px;
     position: relative;
-    transition: all .5s;
-}
-.menu-contents a:hover{
+    transition: all 0.5s;
+  }
+  .menu-contents a:hover {
     background-color: red;
     color: black;
-}
+  }
 
-.menu-contents a::before{
+  .menu-contents a::before {
     content: "";
     position: absolute;
     bottom: 12px;
@@ -78,9 +80,9 @@
     border: 3px solid black;
     border-width: 0 0 3px 3px;
     opacity: 0;
-    transition: all .3s;
-}
-.menu-contents a::after{
+    transition: all 0.3s;
+  }
+  .menu-contents a::after {
     content: "";
     position: absolute;
     bottom: 12px;
@@ -90,21 +92,19 @@
     border: 10px solid black;
     border-width: 0 0 3px 3px;
     opacity: 0;
-    transition: all .3s;
-} 
-.menu-contents a:hover::before{
+    transition: all 0.3s;
+  }
+  .menu-contents a:hover::before {
     opacity: 1;
     bottom: -8px;
     left: -8px;
-}
-.menu-contents a:hover::after
-    {
+  }
+  .menu-contents a:hover::after {
     opacity: 1;
     bottom: -8px;
     left: -8px;
-}
-.bouncing-car{
+  }
+  .bouncing-car {
     font-size: 3em;
-}
-
+  }
 </style>

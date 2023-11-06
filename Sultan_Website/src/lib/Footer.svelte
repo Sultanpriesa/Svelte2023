@@ -1,23 +1,19 @@
 <!-- footer that will display on page -->
 <footer>
-    <div class="copyright"> 
-        <span>
-            This page is written by Sultan  Priesa
-        </span>
-        <span>
-            © 2023 Sultan Priesa, All Rights Reserved.
-        </span>
+  <div class="copyright">
+    <span> This page is written by Sultan Priesa </span>
+    <span> © 2023 Sultan Priesa, All Rights Reserved. </span>
+  </div>
+  <!-- button to automatically go up to the top of the page -->
+  <div class="footer-button">
+    <div class="button-to-top">
+      <span>▲</span>
     </div>
-    <!-- button to automatically go up to the top of the page -->
-    <div class="footer-button">
-        <div class="button-to-top">
-            <span>▲</span>
-        </div>
-    </div>
+  </div>
 </footer>
 
 <style>
-footer{
+  footer {
     background-color: black;
     position: fixed;
     z-index: 96;
@@ -28,8 +24,8 @@ footer{
     box-sizing: border-box;
     justify-content: space-between;
     /* box-shadow: darkgray; */
-}
-.copyright{    
+  }
+  .copyright {
     font-size: 13px;
     line-height: 13px;
     float: left;
@@ -41,22 +37,22 @@ footer{
     align-items: flex-start;
     margin: 10px;
     color: white;
-}
-.copyright span{
+  }
+  .copyright span {
     float: left;
     width: 100%;
     padding: 2px;
-}
-.footer-button{
+  }
+  .footer-button {
     float: right;
     width: auto;
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: center;
     align-items: flex-end;
-}
+  }
 
-.button-to-top{
+  .button-to-top {
     min-width: 30px;
     height: 30px;
     margin: 10px;
@@ -77,14 +73,11 @@ footer{
     align-content: center;
     text-align: center;
     color: white;
-}
+  }
 
-.button-to-top span{
+  .button-to-top span {
     font-size: 20px;
     width: auto;
     float: left;
-}
-
-
+  }
 </style>
-
