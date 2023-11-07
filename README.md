@@ -1,6 +1,13 @@
 # Overview
 
 
+# Features
+- Images: A diverse compilation of striking and enthralling images associated with the world of Formula 1.
+- Driver Names: A comprehensive roster containing the names of all the drivers participating in the current Formula 1 season.
+- Teams:  the complete list of Formula 1 teams for the current season, along with a detailed breakdown of the drivers within each team, as well as the points accrued by each team and their respective drivers over the course of this season.
+- About: The `ABOUT` section provides an in-depth exploration of the rich and illustrious history of Formula 1, delving into the origins, milestones, and key historical events that have shaped the sport into what it is today. 
+
+
 # Installation
 1. Clone the repository:
 ```bash
