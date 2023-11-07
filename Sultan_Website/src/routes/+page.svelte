@@ -75,7 +75,7 @@
   </section>
   <!-- section for fetching photos from unsplash api -->
   <section>
-    <h2 class="drivers-heading">Images</h2>
+    <h2 class="drivers-heading">Related Images</h2>
     <div id="images-car">
         {#each array as ary}
             <img src={ary} />
