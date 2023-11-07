@@ -76,7 +76,7 @@
       "car": "ALFA ROMEO"
     },
     {
-     "id": 16,
+      "id": 16,
       "name": "Yuki Tsunoda",
       "car": "ALPHA TAURI"
     },
@@ -162,7 +162,7 @@
   "teams": [
     {
       "name": "Red Bull Racing",
-      "points": 706,
+      "points": 782,
       "driver1": "Max VERSTAPPEN",
       "driver2": "Sergio PEREZ",
       "image": "red-bull-racing-rb16-1-removebg-preview.png",
@@ -170,7 +170,7 @@
     },
     {
       "name": "Mercedes",
-      "points": 344,
+      "points": 382,
       "driver1": "Lewis HAMILTON",
       "driver2": "George RUSSELL",
       "image": "mercedes-w14-1-removebg-preview.png",
@@ -178,7 +178,7 @@
     },
     {
       "name": "Ferrari",
-      "points": 322,
+      "points": 362,
       "driver1": "Charles LECLERC",
       "driver2": "Carlos SAINZ",
       "image": "1163192-removebg-preview.png",
@@ -186,7 +186,7 @@
     },
     {
       "name": "McLaren",
-      "points": 242,
+      "points": 282,
       "driver1": "Oscar PIASTRI",
       "driver2": "Lando NORRIS",
       "image": "42141-removebg-preview.png",
@@ -194,7 +194,7 @@
     },
     {
       "name": "Aston Martin",
-      "points": 236,
+      "points": 261,
       "driver1": "Lance STROLL",
       "driver2": "Fernando ALONSO",
       "image": "skysports-aston-martin-f1-car_6056332-removebg-preview.png",
@@ -202,7 +202,7 @@
     },
     {
       "name": "Alpine",
-      "points": 100,
+      "points": 108,
       "driver1": "Pierre GASLY",
       "driver2": "Esteban OCON",
       "image": "A523_White_Studio_Blue_01-removebg-preview.png",
@@ -210,7 +210,7 @@
     },
     {
       "name": "Williams",
-      "points": 26,
+      "points": 28,
       "driver1": "Alexander ALBON",
       "driver2": "Logan SARGEANT",
       "image": "3-quarters-zoom-removebg-preview.png",
@@ -233,12 +233,12 @@
       "logo": "menu_5_544_2_kisspng-haas-f1-team-mercedes-amg-petronas-f1-team-formula-5beaf977ee3449-3077393515421259439757-removebg-preview.png"
     },
     {
-      "name": "AlphaTauri",
+      "name": "Alpha Tauri",
       "points": 10,
       "driver1": "Yuki TSUNODA",
       "driver2": "Daniel RICCIARDO",
       "image": "0006-removebg-preview.png",
-      "logo": "02_logo-poster-00001-removebg-preview.png" 
+      "logo": "02_logo-poster-00001-removebg-preview.png"
     }
   ]
 }

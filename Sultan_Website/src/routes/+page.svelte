@@ -12,14 +12,15 @@
     drivers = data.drivers;
 
     //fetching photos related to F1 from unsplash API
-    let image = []
+    let image = [];
     const response = await fetch(
       `${baseUrl}/search/photos?query=f1&per_page=4&client_id=${id}`
     );
     const data2 = await response.json();
     for (let i = 0; i < data2.results.length; i++) {
-      image.push(data2.results[i].urls.regular);}
-    array = image
+      image.push(data2.results[i].urls.regular);
+    }
+    array = image;
   });
 </script>
 
@@ -77,11 +78,10 @@
   <section>
     <h2 class="drivers-heading">Related Images</h2>
     <div id="images-car">
-        {#each array as ary}
-            <img src={ary} />
-        {/each}
+      {#each array as ary}
+        <img src={ary} />
+      {/each}
     </div>
-
   </section>
   <!-- section on list of F1 Drivers with View More Button -->
   <section>
@@ -97,7 +97,7 @@
 </main>
 
 <style>
-/* css section on formula one racing  */
+  /* css section on formula one racing  */
   .top-section-title-teams {
     display: flex;
     align-items: center;
@@ -152,9 +152,9 @@
     border-collapse: collapse;
     table-layout: fixed;
     border: 10px double red;
-    
   }
-  th, td {
+  th,
+  td {
     padding: 15px;
     text-align: center;
     font-size: 20px;
@@ -185,7 +185,7 @@
     flex-wrap: wrap;
     justify-content: center;
     transition: ease-in-out all;
-    animation: colorChange 3s infinite;
+    animation: colorChange 8s infinite;
   }
   @keyframes colorChange {
     0%,
@@ -193,16 +193,15 @@
       color: red;
     }
     25% {
-      color: darkmagenta;
+      color: purple;
     }
     50% {
-      color: crimson;
+      color: black;
     }
     75% {
       color: orange;
     }
   }
-
   .drivers-list li {
     margin-bottom: 10px;
     font-size: 18px;
@@ -223,26 +222,26 @@
   a {
     text-decoration: none;
   }
-/* css section for fetching photos from unsplash api */
-  #images-car{
+  /* css section for fetching photos from unsplash api */
+  #images-car {
     margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
     justify-content: center;
     align-items: center;
-}
- img{
+  }
+  img {
     height: 500px;
     width: 99%;
     border: 2px solid black;
     border-radius: 15px;
     transition: all 0.25s ease-in-out;
-}
-img:hover{
-    border: 3px solid red; 
+  }
+  img:hover {
+    border: 3px solid red;
     transition: all scale(0.2);
     transform: scale(1.01);
-    box-shadow: 0 0 12px black
-}
+    box-shadow: 0 0 12px black;
+  }
 </style>
