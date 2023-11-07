@@ -47,16 +47,7 @@ html{
 }
 @media screen and (max-width: 960px ) {
   .menu-contents a {
-    .menu-contents a {
-      color: red;
-      font-size: 45px;
-      text-decoration: none;
-      text-transform: uppercase;
-      padding: 10px;
-      margin: 10px;
-      position: relative;
-      transition: all 0.5s;
-    }
+    font-size: 25px !important;
   }
 }
 
