@@ -1,4 +1,5 @@
 # Overview
+The website I created is revolves around the sport of Formula 1, and it takes you through the sport's past and present. You can dive into the sport's awesome history, learn about the teams racing today, and get the lowdown on who's behind the wheel right now. It's your go-to spot for all things Formula 1, whether you're a die-hard fan or just getting started.
 
 
 # Features
