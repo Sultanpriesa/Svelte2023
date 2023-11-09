@@ -79,7 +79,7 @@
     <h2 class="drivers-heading">Related Images</h2>
     <div id="images-car">
       {#each array as ary}
-        <img src={ary} />
+        <img src={ary}  alt="images from fetch"/>
       {/each}
     </div>
   </section>
@@ -196,7 +196,7 @@
       color: purple;
     }
     50% {
-      color: black;
+      color: darkgreen;
     }
     75% {
       color: orange;
@@ -218,6 +218,7 @@
     margin: 10px auto 20px;
     display: flex;
     margin-bottom: 100px;
+
   }
   a {
     text-decoration: none;
@@ -231,17 +232,19 @@
     justify-content: center;
     align-items: center;
   }
-  img {
+    /* all images in the page */
+   img {
     height: 500px;
-    width: 99%;
+    width: 98%;
     border: 2px solid black;
     border-radius: 15px;
-    transition: all 0.25s ease-in-out;
+    transition: all 0.3s ease-in-out;
   }
-  img:hover {
+  #images-car img:not(:hover) {
     border: 3px solid red;
-    transition: all scale(0.2);
+    transition: all scale(0.1);
     transform: scale(1.01);
     box-shadow: 0 0 12px black;
+    filter: blur(4px);
   }
 </style>
