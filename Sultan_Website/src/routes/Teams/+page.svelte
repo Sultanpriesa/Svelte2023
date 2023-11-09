@@ -54,7 +54,7 @@
   .horizontal-line {
     content: "";
     display: block;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid rgb(202, 201, 201);
     margin: 10px 0;
   }
   .title-teams {
@@ -95,6 +95,7 @@
   }
   .team-container {
     display: grid;
+    /* making it display in 2 columns */
     grid-template-columns: repeat(2, 1fr);
     flex-wrap: wrap;
     padding-bottom: 100px;
@@ -131,7 +132,6 @@
     max-width: 50px;
     margin-left: auto;
     margin-right: 10px;
-    object-fit: cover;
   }
   .team-drivers ul {
     list-style: none;
@@ -140,7 +140,7 @@
     font-weight: 700;
   }
   .team-drivers li {
-    margin: 0 10px 0 10px;
+    margin: 0 20px 0 10px;
     font-weight: bold;
     font-size: 1.2em;
     color: rgb(255, 0, 0);

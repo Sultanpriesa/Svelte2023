@@ -187,6 +187,7 @@
     transition: ease-in-out all;
     animation: colorChange 8s infinite;
   }
+  /* change the color of driver names */
   @keyframes colorChange {
     0%,
     100% {
